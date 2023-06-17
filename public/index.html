@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de senhas</title>
+    <link rel="shortcut icon" href="../src/assets/img/padlock.png" type="image/x-icon" class="favicon">
+</head>
+
+<body>
+    <section class="container">
+        <h1>Gerador de senhas</h1>
+        <div class="generated-password"></div>
+
+        <form method="get" class="form btn-generator">
+            
+            <label>Número de Caracteres
+                <input max="10" value="8" type="number" class="num-caracters">
+            </label>
+            
+            <label class="switch">
+                <span class="switch-text">Números</span>
+
+                <div class="switch-wrapper div-add-num">
+                    <input type="checkbox" class="add-num checkbox">
+                    <span class="switch-button"></span>
+                </div>
+            </label>
+            
+
+            <label class="switch">
+                <span class="switch-text">Letras maiúsculas</span>
+
+                <div class="switch-wrapper div-cap-letters">
+                    <input type="checkbox" class="cap-letters checkbox">
+                    <span class="switch-button"></span>
+                </div>
+            </label>
+ 
+
+            <label class="switch">
+                <span class="switch-text">Letras Minúsculas</span>
+
+                <div class="switch-wrapper div-small-letters">
+                    <input type="checkbox" class="small-letters checkbox">
+                    <span class="switch-button"></span>    
+                </div>
+            </label>
+           
+            
+            <label class="switch">
+                <span class="switch-text">Símbolos</span>
+
+                <div class="switch-wrapper div-symbols">
+                    <input type="checkbox" class="symbols checkbox">   
+                    <span class="switch-button"></span> 
+                </div>
+            </label>
+            
+            <button class="btn-generator">Generate Password</button>
+        </form>
+    </section>
+
+    <script src="./assets/js/bundle.js"></script>
+</body>
+
+</html>
