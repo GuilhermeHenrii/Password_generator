@@ -1,4 +1,4 @@
-# Big Game Survey 
+# Gerador de senhas 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/GuilhermeHenrii/Password_generator/blob/main/LICENSE)
 
 # Sobre o projeto
